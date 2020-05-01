@@ -28,7 +28,7 @@ class TicTacToe
   end
 
   def valid_move?
-  end 
+  end
 
   def turn
   end
