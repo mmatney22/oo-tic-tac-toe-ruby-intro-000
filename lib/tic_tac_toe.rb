@@ -10,7 +10,7 @@ class TicTacToe
     [0, 4, 8], #Diagonal
     [2, 4, 6], #Diagonal
   ]
-  
+
   def initialize
     @board = Array.new(9, " ")
   end
