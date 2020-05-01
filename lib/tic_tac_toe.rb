@@ -25,7 +25,6 @@ class TicTacToe
 
   def input_to_index(user_input)
     user_input.to_i - 1
-    return @board
   end
 
   def move(user_input,current_player = "X" )
