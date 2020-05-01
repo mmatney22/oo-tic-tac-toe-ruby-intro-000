@@ -1,7 +1,7 @@
 class TicTacToe
 
   def initialize
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    @board = array.new(9, " ")
   end
 
   WIN_COMBINATIONS = [
@@ -26,7 +26,7 @@ class TicTacToe
     return @board
   end
 
-  def move
+  def move(user_input,current_player = "X" )
   end
 
   def position_taken?
